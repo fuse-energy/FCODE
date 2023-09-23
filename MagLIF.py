@@ -2,7 +2,7 @@ import math
 import time
 
 from configs.CONFIG_files import *
-from configs.CONFIG_50MA import *
+from configs.CONFIG_70MA90atm import *
 
 
 start_time = time.time()

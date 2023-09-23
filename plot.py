@@ -167,7 +167,7 @@ def maglif_plot():
 
   for peak in [it["peak_cr"], it["Tstagnation"]]:
     label_point(fig4, x=d['T'][peak], y=d['Cr'][peak],label=str(round(d['Cr'][peak], 2)))
-    label_point(fig4, x=d['T'][peak], y=d['TM'][peak],label=str(round(d['TM'][peak], 2)))
+    label_point(fig4, x=d['T'][peak], y=d['TM'][peak],label=f"{str(round(d['TM'][peak], 2))} keV")
 
 
 

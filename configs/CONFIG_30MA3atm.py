@@ -1,0 +1,20 @@
+# Initial conditions
+Ip = 30E+06
+Ba0 = 30
+TMLaser = 0.250
+Rout0 = 2.70E-03
+Th0 = Rout0/6
+b = 0.023
+Length = 0.005
+atm = 3
+L0 = 1.80E-08
+aa = 0
+bb = 6.0884E-08
+cc = -3.643E-05
+dd = 0.0060069
+ee = -0.17376
+FF = 1.16505
+FlagGas = 2
+Tpreheat = 7.50E-08
+Tpeak = 1.5E-07
+

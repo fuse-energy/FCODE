@@ -2,7 +2,7 @@
 
 Accompanying simulation code for [MagLIF: Dynamics and energetics of liner and fuel](https://www.sciencedirect.com/science/article/pii/S0042207X23006681).
 
-
+https://github.com/fuse-energy/FCODE/assets/107262205/7b6b34f9-83de-4f09-bcae-db4dc970fd0e
 
 ## Single Simulation
 1. Create a config file in the `config` directory to change the initial conditions.

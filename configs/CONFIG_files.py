@@ -14,3 +14,7 @@ screamer_wf_path = f"{inputs_dir}/screamer_wf.csv"
 MAX_ITERATIONS = 200000
 use_SCREAMER = False
 
+# PLOT SMOOTHING
+use_SMOOTHING = True
+SAVGOL_WINDOW = 333
+SMOOTHING_COL = ['Cr', 'P', 'BaP', 'Th', 'R', 'Ecomp', 'Efuel', 'TM']

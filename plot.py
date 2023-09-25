@@ -4,6 +4,7 @@ import pandas as pd
 import numpy as np
 import matplotlib.pyplot as plt
 import matplotlib.patches as patches
+from scipy.signal import savgol_filter
 
 import matplotlib
 
@@ -108,8 +109,13 @@ def maglif_plot():
   ##################################
 
   d = data
-  dz = data_zoom = data.truncate(before=it["zoom_time"])
+  
+  
+  if use_SMOOTHING:
+    for col in SMOOTHING_COL:
+      d[col] = savgol_filter(d[col], SAVGOL_WINDOW, 2)
 
+  dz = data_zoom = data.truncate(before=it["zoom_time"])
   fig = plt.figure()
   gs = fig.add_gridspec(3,3)
 

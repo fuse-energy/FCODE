@@ -4,7 +4,11 @@ Accompanying simulation code for [MagLIF: Dynamics and energetics of liner and f
 
 
 
-https://github.com/fuse-energy/FCODE/assets/107262205/e04926da-19ef-452f-ba59-ac4bdb90811f
+
+
+https://github.com/fuse-energy/FCODE/assets/77456691/39d5dfd2-c731-4351-a44f-a1cb29a1bc93
+
+
 
 
 

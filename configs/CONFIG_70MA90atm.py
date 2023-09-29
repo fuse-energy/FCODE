@@ -1,6 +1,6 @@
 # Initial conditions
 Ip = 79E+06
-Ba0 =  8.00
+Ba0 =  20.00
 TMLaser = 0.300
 Rout0 = 0.0048
 Th0 = Rout0/6
